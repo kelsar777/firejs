@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>JS Fire</title>
+
+<script src="fire.js"></script>
+
+</head>
+<body>
+<canvas id="board" width="600" height="600"></canvas>
+
+
+<script>
+  window.requestAnimFrame = (function(callback) {
+        return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame ||
+        function(callback) {
+          window.setTimeout(callback, 1000/60);
+        };
+      })();
+  
+ animateFire();
+
+</script>
+
+</body>
+</html>
