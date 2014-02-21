@@ -1,4 +1,4 @@
 firejs
 ======
 
-Tools for simulation of fires, flames, deflagrations and explosions
+Tools for simulating fires, flames, deflagrations and explosions
